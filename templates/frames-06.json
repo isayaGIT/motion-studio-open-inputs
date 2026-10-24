@@ -1,0 +1,17 @@
+{
+  "id": "frames-06",
+  "name": "Editorial Reveal 02",
+  "description": "效果：六宫格面板按行交错顺序扫入，停留后反向扫出并回到空画面。布局固定为 6 个面板槽位；允许 repeatAssets 循环复用素材。Count 控件默认值虽为 6，但面板数实际由 grid6 布局决定。",
+  "inputs": {
+    "required": [
+      {
+        "type": "image",
+        "count": 6,
+        "min": 6,
+        "max": 6,
+        "description": "用于六宫格揭示动画的图片素材；固定 6 个面板槽位，允许循环复用素材。"
+      }
+    ],
+    "optional": []
+  }
+}
