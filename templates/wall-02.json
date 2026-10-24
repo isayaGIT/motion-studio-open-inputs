@@ -1,0 +1,14 @@
+{
+  "id": "wall-02",
+  "name": "Frames 02",
+  "description": "效果：动态相框墙以较大竖幅图片铺满画布，列对齐并连续垂直滚动。素材槽位数由画布尺寸、卡片尺寸和间距动态求解，不存在固定 Count；允许 repeatAssets 循环复用素材。",
+  "inputs": {
+    "required": [
+      {
+        "type": "image",
+        "description": "用于动态相框墙的竖幅图片。实际槽位数量随画布尺寸、卡片尺寸及间距动态变化，支持循环复用。"
+      }
+    ],
+    "optional": []
+  }
+}
