@@ -1,15 +1,12 @@
 {
   "id": "frames-05",
   "name": "分帧揭示",
-  "description": "效果：图片按分帧节奏逐步出现，形成逐格揭示的转场效果。 默认值：素材数量 6（可调范围 2–6）。",
+  "description": "效果：编辑式面板按顺序扫入，停留后按反向顺序扫出，最后回到空画面。素材槽位数量由 Layout 决定：splitTop 为 3、thirds 为 3、grid6 为 6、columns 为 2；repeatAssets 允许循环复用。Count 控件本身不决定实际面板数，因此不声明固定 count/min/max。",
   "inputs": {
     "required": [
       {
         "type": "image",
-        "count": 6,
-        "min": 2,
-        "max": 6,
-        "description": "图片素材，用于图片按分帧节奏逐步出现，形成逐格揭示的转场效果。"
+        "description": "用于编辑式分帧揭示的图片素材；实际槽位数取决于所选布局（2、3 或 6 个面板），支持循环复用素材。"
       }
     ],
     "optional": []
