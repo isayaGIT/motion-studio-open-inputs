@@ -1,0 +1,17 @@
+{
+  "id": "proximity-06",
+  "name": "Dock 06",
+  "description": "效果：超密集网格配合横向扫过的焦点，放大邻近卡片并带有轻微倾斜 默认值：素材数量 140（可调范围 6–200）。",
+  "inputs": {
+    "required": [
+      {
+        "type": "image",
+        "count": 140,
+        "min": 6,
+        "max": 200,
+        "description": "用于邻近焦点放大效果的图片素材；网格槽位可循环复用。"
+      }
+    ],
+    "optional": []
+  }
+}
