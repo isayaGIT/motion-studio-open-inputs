@@ -1,0 +1,17 @@
+{
+  "id": "flip-02",
+  "name": "Flip 02",
+  "description": "效果：图片沿竖向翻折进入与离开可视窗口，窗口内保持多张卡片连续排布 默认值：素材数量 6（可调范围 2–20）。",
+  "inputs": {
+    "required": [
+      {
+        "type": "image",
+        "count": 6,
+        "min": 2,
+        "max": 20,
+        "description": "用于翻折带状序列的图片素材。"
+      }
+    ],
+    "optional": []
+  }
+}
