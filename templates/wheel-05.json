@@ -1,0 +1,17 @@
+{
+  "id": "wheel-05",
+  "name": "Ferris 05",
+  "description": "效果：图片以摩天轮式排列围绕中心旋转，形成连续空间展示。 默认值：5（可调范围 3–20）。Count 表示图片卡片数量；素材可按预设的 repeatAssets 规则循环复用。",
+  "inputs": {
+    "required": [
+      {
+        "type": "image",
+        "count": 5,
+        "min": 3,
+        "max": 20,
+        "description": "图片素材，用于图片以摩天轮式排列围绕中心旋转，形成连续空间展示。 Count 表示图片卡片数量；素材可按预设的 repeatAssets 规则循环复用。"
+      }
+    ],
+    "optional": []
+  }
+}
