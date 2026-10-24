@@ -1,0 +1,17 @@
+{
+  "id": "orbit-spin-01",
+  "name": "轨道自旋",
+  "description": "效果：图片沿轨道分布并持续自旋，形成有节奏的环绕展示。 默认值：素材数量 8（可调范围 2–16）。",
+  "inputs": {
+    "required": [
+      {
+        "type": "image",
+        "count": 8,
+        "min": 2,
+        "max": 16,
+        "description": "图片素材，用于图片沿轨道分布并持续自旋，形成有节奏的环绕展示。"
+      }
+    ],
+    "optional": []
+  }
+}
