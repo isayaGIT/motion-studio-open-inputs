@@ -1,17 +1,9 @@
 {
   "id": "magazine-09",
   "name": "Magazine 09",
-  "description": "效果：图片以立体页片序列呈现，形成连续的杂志式动态展示。 默认值：素材数量 6（可调范围 1–12）。",
+  "description": "效果：实体杂志以倾斜的三维姿态旋转展示，侧重偏航角度与灯光表现。固定 2 个封面/封底槽位；允许 repeatAssets 循环复用素材。",
   "inputs": {
-    "required": [
-      {
-        "type": "image",
-        "count": 6,
-        "min": 1,
-        "max": 12,
-        "description": "图片素材，用于图片以立体页片序列呈现，形成连续的杂志式动态展示。"
-      }
-    ],
+    "required": [{ "type": "image", "count": 2, "min": 2, "max": 2, "description": "用于杂志封面与封底的图片素材；固定两个结构槽位，允许循环复用素材。" }],
     "optional": []
   }
 }
