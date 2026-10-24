@@ -1,0 +1,13 @@
+{
+  "id": "wipe-01",
+  "name": "Takeover 01",
+  "inputs": {
+    "required": [
+      {
+        "type": "image",
+        "description": "需要图片素材作为逐张推入并覆盖画面的内容。"
+      }
+    ],
+    "optional": []
+  }
+}
