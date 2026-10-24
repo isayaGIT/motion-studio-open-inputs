@@ -1,0 +1,17 @@
+{
+  "id": "frames-07",
+  "name": "Editorial Reveal 03",
+  "description": "效果：一个纵向主面板与两个侧向面板组成三段式编辑版式，按扫入顺序逐一显现，再反向隐藏。布局固定为 3 个面板槽位；允许 repeatAssets 循环复用素材。",
+  "inputs": {
+    "required": [
+      {
+        "type": "image",
+        "count": 3,
+        "min": 3,
+        "max": 3,
+        "description": "用于三段式版面的图片素材；实际槽位数由 thirds 布局固定为 3，允许循环复用。"
+      }
+    ],
+    "optional": []
+  }
+}
