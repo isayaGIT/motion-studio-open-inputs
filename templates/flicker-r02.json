@@ -1,0 +1,17 @@
+{
+  "id": "flicker-r02",
+  "name": "Pulse 04",
+  "description": "效果：12 张图片快速交替，并以缓入缓出节奏形成闪烁感 默认值：素材数量 12（可调范围 2–12）。",
+  "inputs": {
+    "required": [
+      {
+        "type": "image",
+        "count": 12,
+        "min": 2,
+        "max": 12,
+        "description": "用于快速交替显隐的图片素材。"
+      }
+    ],
+    "optional": []
+  }
+}
