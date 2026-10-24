@@ -1,0 +1,17 @@
+{
+  "id": "wipe-05",
+  "name": "Takeover 05",
+  "description": "效果：图片从画面右侧推入，按较慢节奏覆盖上一张图片。 默认值：素材数量 5（可调范围 2–8）。",
+  "inputs": {
+    "required": [
+      {
+        "type": "image",
+        "count": 5,
+        "min": 2,
+        "max": 8,
+        "description": "图片素材，用于图片从画面右侧推入，按较慢节奏覆盖上一张图片。"
+      }
+    ],
+    "optional": []
+  }
+}
