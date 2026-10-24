@@ -1,0 +1,17 @@
+{
+  "id": "globe-r11",
+  "name": "参考球面 11",
+  "description": "效果：图片在球面上连续排列，形成环绕视觉结构。 默认值：素材数量 40（可调范围 4–80）。",
+  "inputs": {
+    "required": [
+      {
+        "type": "image",
+        "count": 40,
+        "min": 4,
+        "max": 80,
+        "description": "图片素材，用于图片在球面上连续排列，形成环绕视觉结构。"
+      }
+    ],
+    "optional": []
+  }
+}
