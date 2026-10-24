@@ -1,0 +1,17 @@
+{
+  "id": "frames-08",
+  "name": "Editorial Reveal 04",
+  "description": "效果：两个纵向大栏按顺序扫入，形成双栏编辑式揭示，再反向扫出。布局固定为 2 个面板槽位；允许 repeatAssets 循环复用素材。",
+  "inputs": {
+    "required": [
+      {
+        "type": "image",
+        "count": 2,
+        "min": 2,
+        "max": 2,
+        "description": "用于双栏揭示布局的图片素材；固定 2 个面板槽位，允许循环复用素材。"
+      }
+    ],
+    "optional": []
+  }
+}
