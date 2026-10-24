@@ -1,0 +1,17 @@
+{
+  "id": "revolve-03",
+  "name": "Revolve 03",
+  "description": "效果：单张图片以更快节奏绕自身轴线翻转，边缘对齐时完成画面交接 默认值：素材数量 4（可调范围 2–12）。",
+  "inputs": {
+    "required": [
+      {
+        "type": "image",
+        "count": 4,
+        "min": 2,
+        "max": 12,
+        "description": "用于全画幅翻转切换的图片素材；卡片可循环复用素材。"
+      }
+    ],
+    "optional": []
+  }
+}
