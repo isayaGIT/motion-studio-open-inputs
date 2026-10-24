@@ -1,0 +1,14 @@
+{
+  "id": "wall-04",
+  "name": "Frames 04",
+  "description": "效果：竖幅相框墙以线性节奏连续垂直移动，保留规则网格和画布覆盖。素材槽位数根据画布尺寸、卡片尺寸与间距动态计算；允许 repeatAssets 循环复用素材。",
+  "inputs": {
+    "required": [
+      {
+        "type": "image",
+        "description": "用于连续滚动相框墙的竖幅图片；实际槽位数动态计算，不是固定素材张数，支持循环复用。"
+      }
+    ],
+    "optional": []
+  }
+}
