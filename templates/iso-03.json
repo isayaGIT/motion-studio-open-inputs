@@ -1,0 +1,17 @@
+{
+  "id": "iso-03",
+  "name": "Isometric 03",
+  "description": "效果：较疏朗的等距网格以低幅抬升和轻微摆动形成柔和的空间波浪 默认值：素材数量 9（可调范围 2–60）。",
+  "inputs": {
+    "required": [
+      {
+        "type": "image",
+        "count": 9,
+        "min": 2,
+        "max": 60,
+        "description": "用于等距网格中的图片卡片；槽位可循环复用素材。"
+      }
+    ],
+    "optional": []
+  }
+}
