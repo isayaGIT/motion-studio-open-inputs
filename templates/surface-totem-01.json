@@ -1,0 +1,17 @@
+{
+  "id": "surface-totem-01",
+  "name": "Totem Wall",
+  "description": "效果：图片沿纵向图腾式曲面排列，形成集中的空间展示结构。 默认值：素材数量 24（可调范围 8–80）。",
+  "inputs": {
+    "required": [
+      {
+        "type": "image",
+        "count": 24,
+        "min": 8,
+        "max": 80,
+        "description": "图片素材，用于图片沿纵向图腾式曲面排列，形成集中的空间展示结构。"
+      }
+    ],
+    "optional": []
+  }
+}
