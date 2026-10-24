@@ -1,11 +1,12 @@
 {
   "id": "wipe-01",
   "name": "Takeover 01",
+  "description": "效果：图片从画面左侧推入，覆盖上一张图片，形成连续的全画幅切换。默认值：Count=4（可调范围 2–8）；Direction=left；Fit=fill；Zoom=110；Plane Size=68（仅 Fit=fit 时显示）；Hold=0；Corner Radius=0；Speed=0.7；Offset={x:0,y:0}。素材数量要求未从源码确认，因此不在此推断。",
   "inputs": {
     "required": [
       {
         "type": "image",
-        "description": "需要图片素材作为逐张推入并覆盖画面的内容。"
+        "description": "图片素材，用于从画面边缘推入并覆盖上一张图片；源码未明确规定必须提供的素材张数。"
       }
     ],
     "optional": []
