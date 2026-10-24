@@ -1,0 +1,17 @@
+{
+  "id": "orbit-spin-03",
+  "name": "Spin 03",
+  "description": "效果：图片沿环绕路径持续自旋，形成另一种空间旋转节奏。 默认值：素材数量 8（可调范围 2–16）。",
+  "inputs": {
+    "required": [
+      {
+        "type": "image",
+        "count": 8,
+        "min": 2,
+        "max": 16,
+        "description": "图片素材，用于图片沿环绕路径持续自旋，形成另一种空间旋转节奏。"
+      }
+    ],
+    "optional": []
+  }
+}
