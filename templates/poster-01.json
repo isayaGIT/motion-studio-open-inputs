@@ -1,0 +1,17 @@
+{
+  "id": "poster-01",
+  "name": "海报拼贴",
+  "description": "效果：图片以海报式布局错落组合，形成拼贴展示效果。 默认值：素材数量 9（可调范围 1–12）。",
+  "inputs": {
+    "required": [
+      {
+        "type": "image",
+        "count": 9,
+        "min": 1,
+        "max": 12,
+        "description": "图片素材，用于图片以海报式布局错落组合，形成拼贴展示效果。"
+      }
+    ],
+    "optional": []
+  }
+}
