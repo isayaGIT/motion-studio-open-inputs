@@ -1,0 +1,17 @@
+{
+  "id": "iso-02",
+  "name": "Isometric 02",
+  "description": "效果：更多图片铺成等距网格，波浪沿网格对角线传播并抬升卡片 默认值：素材数量 30（可调范围 2–60）。",
+  "inputs": {
+    "required": [
+      {
+        "type": "image",
+        "count": 30,
+        "min": 2,
+        "max": 60,
+        "description": "用于等距网格中的图片卡片；槽位可循环复用素材。"
+      }
+    ],
+    "optional": []
+  }
+}
