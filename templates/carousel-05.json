@@ -1,0 +1,17 @@
+{
+  "id": "carousel-05",
+  "name": "Runway 05",
+  "description": "效果：图片沿连续轨道排列，通过卡片倾斜与焦点变化形成动态跑道。 默认值：素材数量 6（可调范围 1–12）。",
+  "inputs": {
+    "required": [
+      {
+        "type": "image",
+        "count": 6,
+        "min": 1,
+        "max": 12,
+        "description": "图片素材，用于图片沿连续轨道排列，通过卡片倾斜与焦点变化形成动态跑道。"
+      }
+    ],
+    "optional": []
+  }
+}
