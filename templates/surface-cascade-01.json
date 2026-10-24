@@ -1,7 +1,7 @@
 {
   "id": "surface-cascade-01",
   "name": "Sphere Cascade",
-  "description": "效果：图片沿曲面以级联层次排列，形成纵深流动的展示面。 默认值：素材数量 40（可调范围 8–80）。",
+  "description": "效果：图片沿弧形曲面级联排列，形成纵深流动的展示面。默认卡片槽位数 40（可调范围 8–80）；允许 repeatAssets 循环复用素材。",
   "inputs": {
     "required": [
       {
@@ -9,7 +9,7 @@
         "count": 40,
         "min": 8,
         "max": 80,
-        "description": "图片素材，用于图片沿曲面以级联层次排列，形成纵深流动的展示面。"
+        "description": "用于曲面级联展示的卡片图片。Count 表示展示槽位数量，支持循环复用，不要求上传同样数量的独立图片。"
       }
     ],
     "optional": []
