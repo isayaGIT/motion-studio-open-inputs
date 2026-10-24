@@ -1,0 +1,17 @@
+{
+  "id": "orbit-3d-13",
+  "name": "Ring Carousel 04",
+  "description": "效果：图片沿透视圆环轨道排列，突出近景与远景层次。 默认值：素材数量 20（可调范围 3–40）。",
+  "inputs": {
+    "required": [
+      {
+        "type": "image",
+        "count": 20,
+        "min": 3,
+        "max": 40,
+        "description": "图片素材，用于图片沿透视圆环轨道排列，突出近景与远景层次。"
+      }
+    ],
+    "optional": []
+  }
+}
