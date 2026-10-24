@@ -1,0 +1,17 @@
+{
+  "id": "canvas-gallery-03",
+  "name": "画布画廊 03",
+  "description": "效果：图片以错落的画廊布局组织，突出作品之间的层次。 默认值：素材数量 6（可调范围 3–30）。",
+  "inputs": {
+    "required": [
+      {
+        "type": "image",
+        "count": 6,
+        "min": 3,
+        "max": 30,
+        "description": "图片素材，用于图片以错落的画廊布局组织，突出作品之间的层次。"
+      }
+    ],
+    "optional": []
+  }
+}
