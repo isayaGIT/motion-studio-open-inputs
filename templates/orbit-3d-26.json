@@ -1,0 +1,17 @@
+{
+  "id": "orbit-3d-26",
+  "name": "Ring Bloom 04",
+  "description": "效果：图片沿环形轨道排列，结合空间运动形成层叠绽放效果。 默认值：素材数量 20（可调范围 3–40）。",
+  "inputs": {
+    "required": [
+      {
+        "type": "image",
+        "count": 20,
+        "min": 3,
+        "max": 40,
+        "description": "图片素材，用于图片沿环形轨道排列，结合空间运动形成层叠绽放效果。"
+      }
+    ],
+    "optional": []
+  }
+}
