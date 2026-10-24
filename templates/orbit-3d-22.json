@@ -1,0 +1,17 @@
+{
+  "id": "orbit-3d-22",
+  "name": "Ring Lightroom 08",
+  "description": "效果：图片在三维圆环中排列，形成连续空间图片序列。 默认值：素材数量 20（可调范围 3–40）。",
+  "inputs": {
+    "required": [
+      {
+        "type": "image",
+        "count": 20,
+        "min": 3,
+        "max": 40,
+        "description": "图片素材，用于图片在三维圆环中排列，形成连续空间图片序列。"
+      }
+    ],
+    "optional": []
+  }
+}
