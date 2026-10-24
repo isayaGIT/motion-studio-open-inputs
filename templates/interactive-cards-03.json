@@ -1,0 +1,17 @@
+{
+  "id": "interactive-cards-03",
+  "name": "环形分段卡片 03",
+  "description": "效果：图片片段以多层环带方式排列，形成连续的空间卡片结构。 默认值：素材数量 130（可调范围 26–260）。",
+  "inputs": {
+    "required": [
+      {
+        "type": "image",
+        "count": 130,
+        "min": 26,
+        "max": 260,
+        "description": "图片素材，用于图片片段以多层环带方式排列，形成连续的空间卡片结构。"
+      }
+    ],
+    "optional": []
+  }
+}
