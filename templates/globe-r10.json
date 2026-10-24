@@ -1,0 +1,17 @@
+{
+  "id": "globe-r10",
+  "name": "参考球面 10",
+  "description": "效果：图片围绕球体分布，形成空间化的图片展示。 默认值：素材数量 40（可调范围 4–80）。",
+  "inputs": {
+    "required": [
+      {
+        "type": "image",
+        "count": 40,
+        "min": 4,
+        "max": 80,
+        "description": "图片素材，用于图片围绕球体分布，形成空间化的图片展示。"
+      }
+    ],
+    "optional": []
+  }
+}
