@@ -1,0 +1,17 @@
+{
+  "id": "parallax-totem-01",
+  "name": "视差图腾",
+  "description": "效果：图片围绕纵向空间轴排列，结合层间位移形成图腾式视差结构。 默认值：素材数量 24（可调范围 8–48）。",
+  "inputs": {
+    "required": [
+      {
+        "type": "image",
+        "count": 24,
+        "min": 8,
+        "max": 48,
+        "description": "图片素材，用于图片围绕纵向空间轴排列，结合层间位移形成图腾式视差结构。"
+      }
+    ],
+    "optional": []
+  }
+}
