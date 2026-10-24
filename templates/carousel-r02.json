@@ -1,0 +1,17 @@
+{
+  "id": "carousel-r02",
+  "name": "Runway 07",
+  "description": "效果：图片沿横向跑道排列并连续移动，形成水平滚动带。 默认值：素材数量 6（可调范围 1–12）。",
+  "inputs": {
+    "required": [
+      {
+        "type": "image",
+        "count": 6,
+        "min": 1,
+        "max": 12,
+        "description": "图片素材，用于图片沿横向跑道排列并连续移动，形成水平滚动带。"
+      }
+    ],
+    "optional": []
+  }
+}
