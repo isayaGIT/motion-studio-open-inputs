@@ -4,8 +4,8 @@
   "inputs": {
     "required": [
       {
-        "type": "image",
-        "description": "至少提供一张图片作为卡片素材；动画会将素材用于隧道中的卡片。"
+        "type": "image_or_video",
+        "description": "至少提供一项图片或视频素材，作为隧道中的卡片内容。"
       }
     ],
     "optional": [],
