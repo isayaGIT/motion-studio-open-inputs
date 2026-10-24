@@ -1,0 +1,17 @@
+{
+  "id": "flicker-r09",
+  "name": "Pulse 11",
+  "description": "效果：图片交替显隐时逐渐放大离场，形成推出式脉冲 默认值：素材数量 6（可调范围 2–12）。",
+  "inputs": {
+    "required": [
+      {
+        "type": "image",
+        "count": 6,
+        "min": 2,
+        "max": 12,
+        "description": "用于交替显隐与放大离场的图片素材。"
+      }
+    ],
+    "optional": []
+  }
+}
