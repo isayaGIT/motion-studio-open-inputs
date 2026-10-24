@@ -1,0 +1,17 @@
+{
+  "id": "ring-base",
+  "name": "基础圆环",
+  "description": "效果：图片围绕中心排列成环，形成稳定的环形空间布局。 默认值：素材数量 10（可调范围 3–40）。",
+  "inputs": {
+    "required": [
+      {
+        "type": "image",
+        "count": 10,
+        "min": 3,
+        "max": 40,
+        "description": "图片素材，用于图片围绕中心排列成环，形成稳定的环形空间布局。"
+      }
+    ],
+    "optional": []
+  }
+}
