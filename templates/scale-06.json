@@ -1,0 +1,17 @@
+{
+  "id": "scale-06",
+  "name": "Dive Recede",
+  "description": "效果：图片沿纵深方向逐层缩小或退远，形成向画面深处收束的缩放序列。 默认值：素材数量 6（可调范围 3–10）。",
+  "inputs": {
+    "required": [
+      {
+        "type": "image",
+        "count": 6,
+        "min": 3,
+        "max": 10,
+        "description": "图片素材，用于图片沿纵深方向逐层缩小或退远，形成向画面深处收束的缩放序列。"
+      }
+    ],
+    "optional": []
+  }
+}
