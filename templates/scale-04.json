@@ -1,0 +1,17 @@
+{
+  "id": "scale-04",
+  "name": "Dive 04",
+  "description": "效果：图片从画面中心推进放大并轻微旋转，形成动态镜头推进 默认值：素材数量 5（可调范围 2–10）。",
+  "inputs": {
+    "required": [
+      {
+        "type": "image",
+        "count": 5,
+        "min": 2,
+        "max": 10,
+        "description": "用于推进缩放、轻微旋转与交叉淡化的图片素材。"
+      }
+    ],
+    "optional": []
+  }
+}
