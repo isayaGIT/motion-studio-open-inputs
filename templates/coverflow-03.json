@@ -1,0 +1,17 @@
+{
+  "id": "coverflow-03",
+  "name": "Cover Flow 03",
+  "description": "效果：沿水平透视轨道排列图片，形成连续的中心聚焦展示。 默认值：素材数量 8（可调范围 3–20）。",
+  "inputs": {
+    "required": [
+      {
+        "type": "image",
+        "count": 8,
+        "min": 3,
+        "max": 20,
+        "description": "图片素材，用于沿水平透视轨道排列图片，形成连续的中心聚焦展示。"
+      }
+    ],
+    "optional": []
+  }
+}
