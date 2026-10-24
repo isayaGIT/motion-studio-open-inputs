@@ -1,0 +1,17 @@
+{
+  "id": "globe-r12",
+  "name": "参考球面 12",
+  "description": "效果：图片按球形空间组织，呈现多层次环绕效果。 默认值：素材数量 40（可调范围 4–80）。",
+  "inputs": {
+    "required": [
+      {
+        "type": "image",
+        "count": 40,
+        "min": 4,
+        "max": 80,
+        "description": "图片素材，用于图片按球形空间组织，呈现多层次环绕效果。"
+      }
+    ],
+    "optional": []
+  }
+}
