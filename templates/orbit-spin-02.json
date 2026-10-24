@@ -1,0 +1,17 @@
+{
+  "id": "orbit-spin-02",
+  "name": "Spin 02",
+  "description": "效果：图片沿弯曲轨道环绕并持续自旋，形成变化的空间轨迹。 默认值：素材数量 8（可调范围 2–16）。",
+  "inputs": {
+    "required": [
+      {
+        "type": "image",
+        "count": 8,
+        "min": 2,
+        "max": 16,
+        "description": "图片素材，用于图片沿弯曲轨道环绕并持续自旋，形成变化的空间轨迹。"
+      }
+    ],
+    "optional": []
+  }
+}
