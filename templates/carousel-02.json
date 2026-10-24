@@ -1,0 +1,17 @@
+{
+  "id": "carousel-02",
+  "name": "Runway 02",
+  "description": "效果：图片沿单一方向连续排列，并以跑道式轨迹滚动展示。 默认值：素材数量 6（可调范围 1–12）。",
+  "inputs": {
+    "required": [
+      {
+        "type": "image",
+        "count": 6,
+        "min": 1,
+        "max": 12,
+        "description": "图片素材，用于图片沿单一方向连续排列，并以跑道式轨迹滚动展示。"
+      }
+    ],
+    "optional": []
+  }
+}
