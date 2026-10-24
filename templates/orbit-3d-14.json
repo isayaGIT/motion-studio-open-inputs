@@ -1,0 +1,17 @@
+{
+  "id": "orbit-3d-14",
+  "name": "Ring Carousel 05",
+  "description": "效果：图片分布于三维环形轨道，形成连续旋转的展示序列。 默认值：素材数量 20（可调范围 3–40）。",
+  "inputs": {
+    "required": [
+      {
+        "type": "image",
+        "count": 20,
+        "min": 3,
+        "max": 40,
+        "description": "图片素材，用于图片分布于三维环形轨道，形成连续旋转的展示序列。"
+      }
+    ],
+    "optional": []
+  }
+}
