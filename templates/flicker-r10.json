@@ -1,0 +1,17 @@
+{
+  "id": "flicker-r10",
+  "name": "Pulse 12",
+  "description": "效果：快速交替切换，并以轻微缩小动作结束当前图片 默认值：素材数量 6（可调范围 2–12）。",
+  "inputs": {
+    "required": [
+      {
+        "type": "image",
+        "count": 6,
+        "min": 2,
+        "max": 12,
+        "description": "用于快速交替显隐与轻微缩放离场的图片素材。"
+      }
+    ],
+    "optional": []
+  }
+}
