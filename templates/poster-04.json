@@ -1,0 +1,17 @@
+{
+  "id": "poster-04",
+  "name": "Poster 04",
+  "description": "效果：图片以海报形式铺展，并从底边掀起形成纸张翻卷效果。 默认值：素材数量 9（可调范围 1–12）。",
+  "inputs": {
+    "required": [
+      {
+        "type": "image",
+        "count": 9,
+        "min": 1,
+        "max": 12,
+        "description": "图片素材，用于图片以海报形式铺展，并从底边掀起形成纸张翻卷效果。"
+      }
+    ],
+    "optional": []
+  }
+}
