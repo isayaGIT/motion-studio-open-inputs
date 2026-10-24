@@ -1,0 +1,17 @@
+{
+  "id": "box-02",
+  "name": "Box Tumble",
+  "description": "效果：图片排列在多面棱柱表面，棱柱翻转时依次展示不同图片面。 默认值：素材数量 7（可调范围 4–24）。",
+  "inputs": {
+    "required": [
+      {
+        "type": "image",
+        "count": 7,
+        "min": 4,
+        "max": 24,
+        "description": "图片素材，用于图片排列在多面棱柱表面，棱柱翻转时依次展示不同图片面。"
+      }
+    ],
+    "optional": []
+  }
+}
