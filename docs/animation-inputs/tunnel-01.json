@@ -8,10 +8,6 @@
         "description": "至少提供一项图片或视频素材，作为隧道中的卡片内容。"
       }
     ],
-    "optional": [],
-    "constraints": [
-      "源码声明 repeatAssets: true，素材可以重复用于多个卡片。",
-      "该动画默认呈现多张卡片，不属于单个视觉元素动画。"
-    ]
+    "optional": []
   }
 }
