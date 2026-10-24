@@ -1,17 +1,9 @@
 {
   "id": "magazine-06",
   "name": "Magazine 06",
-  "description": "效果：图片以杂志页片的三维翻动结构展示，强调纸页厚度与转动。 默认值：素材数量 6（可调范围 1–12）。",
+  "description": "效果：实体杂志书封面与封底绕书脊旋转一周，采用反向旋转和线性节奏。固定使用 2 个页面外壳槽位（封面、封底）；允许 repeatAssets 循环复用图片，不需要上传 2 张不同图片。",
   "inputs": {
-    "required": [
-      {
-        "type": "image",
-        "count": 6,
-        "min": 1,
-        "max": 12,
-        "description": "图片素材，用于图片以杂志页片的三维翻动结构展示，强调纸页厚度与转动。"
-      }
-    ],
+    "required": [{ "type": "image", "count": 2, "min": 2, "max": 2, "description": "图片素材映射到实体杂志的封面与封底；两个槽位为固定几何结构，可循环复用素材。" }],
     "optional": []
   }
 }
