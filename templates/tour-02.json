@@ -1,0 +1,17 @@
+{
+  "id": "tour-02",
+  "name": "Voyage 02",
+  "description": "效果：镜头在大型散布式图片场中缓慢平移并呼吸式缩放，焦点随镜头位置变化；该预设把 Count 覆盖为 18。默认卡片槽位数 18（可调范围 4–24），允许 repeatAssets 循环复用素材。",
+  "inputs": {
+    "required": [
+      {
+        "type": "image",
+        "count": 18,
+        "min": 4,
+        "max": 24,
+        "description": "散布在三维感图片场中的卡片素材；18 是卡片槽位数，支持循环复用，不要求 18 张独立图片。"
+      }
+    ],
+    "optional": []
+  }
+}
