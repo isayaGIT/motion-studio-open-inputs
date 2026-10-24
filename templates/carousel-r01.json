@@ -1,0 +1,17 @@
+{
+  "id": "carousel-r01",
+  "name": "Runway 06",
+  "description": "效果：图片沿跑道轨迹连续滚动，使用紧凑间距形成流畅的图片带。 默认值：素材数量 6（可调范围 1–12）。",
+  "inputs": {
+    "required": [
+      {
+        "type": "image",
+        "count": 6,
+        "min": 1,
+        "max": 12,
+        "description": "图片素材，用于图片沿跑道轨迹连续滚动，使用紧凑间距形成流畅的图片带。"
+      }
+    ],
+    "optional": []
+  }
+}
