@@ -1,0 +1,17 @@
+{
+  "id": "flicker-r01",
+  "name": "Pulse 03",
+  "description": "效果：全画幅图片依次显现并交叉淡化，形成干净的连续切换 默认值：素材数量 6（可调范围 2–12）。",
+  "inputs": {
+    "required": [
+      {
+        "type": "image",
+        "count": 6,
+        "min": 2,
+        "max": 12,
+        "description": "全画幅切换所用的图片素材，依次交替显隐。"
+      }
+    ],
+    "optional": []
+  }
+}
