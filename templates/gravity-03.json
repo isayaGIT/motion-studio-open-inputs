@@ -1,0 +1,17 @@
+{
+  "id": "gravity-03",
+  "name": "重力散落 03",
+  "description": "效果：图片以重力式运动组织成错落的空间图片群。 默认值：素材数量 8（可调范围 2–14）。",
+  "inputs": {
+    "required": [
+      {
+        "type": "image",
+        "count": 8,
+        "min": 2,
+        "max": 14,
+        "description": "图片素材，用于图片以重力式运动组织成错落的空间图片群。"
+      }
+    ],
+    "optional": []
+  }
+}
