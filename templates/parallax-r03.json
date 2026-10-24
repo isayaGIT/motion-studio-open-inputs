@@ -1,0 +1,17 @@
+{
+  "id": "parallax-r03",
+  "name": "参考视差 03",
+  "description": "效果：图片通过多层空间排列形成连续的前后景视差。 默认值：素材数量 100（可调范围 3–250）。",
+  "inputs": {
+    "required": [
+      {
+        "type": "image",
+        "count": 100,
+        "min": 3,
+        "max": 250,
+        "description": "图片素材，用于图片通过多层空间排列形成连续的前后景视差。"
+      }
+    ],
+    "optional": []
+  }
+}
