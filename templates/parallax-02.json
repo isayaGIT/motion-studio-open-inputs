@@ -1,0 +1,17 @@
+{
+  "id": "parallax-02",
+  "name": "Drift 02",
+  "description": "效果：大量图片铺成宽阔的固定图片墙，镜头缓慢穿行形成空间视差 默认值：素材数量 140（可调范围 3–250）。",
+  "inputs": {
+    "required": [
+      {
+        "type": "image",
+        "count": 140,
+        "min": 3,
+        "max": 250,
+        "description": "用于视差图片墙的图片素材；画面中的卡片位置固定，移动来自镜头。"
+      }
+    ],
+    "optional": []
+  }
+}
