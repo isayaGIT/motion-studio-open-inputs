@@ -1,0 +1,17 @@
+{
+  "id": "wheel-03",
+  "name": "Ferris 03",
+  "description": "效果：图片沿环绕路径排列，并通过方向与弧度形成摩天轮式展示。 默认值：5（可调范围 3–20）。Count 表示图片卡片数量；素材可按预设的 repeatAssets 规则循环复用。",
+  "inputs": {
+    "required": [
+      {
+        "type": "image",
+        "count": 5,
+        "min": 3,
+        "max": 20,
+        "description": "图片素材，用于图片沿环绕路径排列，并通过方向与弧度形成摩天轮式展示。 Count 表示图片卡片数量；素材可按预设的 repeatAssets 规则循环复用。"
+      }
+    ],
+    "optional": []
+  }
+}
