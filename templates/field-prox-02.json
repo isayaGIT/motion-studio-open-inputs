@@ -1,0 +1,17 @@
+{
+  "id": "field-prox-02",
+  "name": "Proximity 02",
+  "description": "效果：大规模图片场沿往返路径移动焦点，邻近图片放大、远处图片缩小 默认值：素材数量 500（可调范围 50–800）。",
+  "inputs": {
+    "required": [
+      {
+        "type": "image",
+        "count": 500,
+        "min": 50,
+        "max": 800,
+        "description": "用于高密度邻近场的图片素材；九组重复场景复用同一素材池。"
+      }
+    ],
+    "optional": []
+  }
+}
