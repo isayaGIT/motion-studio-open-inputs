@@ -1,0 +1,17 @@
+{
+  "id": "parallax-03",
+  "name": "Drift 03",
+  "description": "效果：较稀疏的图片墙随镜头缓慢穿行，形成轻量空间视差 默认值：素材数量 40（可调范围 3–250）。",
+  "inputs": {
+    "required": [
+      {
+        "type": "image",
+        "count": 40,
+        "min": 3,
+        "max": 250,
+        "description": "用于视差图片墙的图片素材；画面中的卡片位置固定，移动来自镜头。"
+      }
+    ],
+    "optional": []
+  }
+}
