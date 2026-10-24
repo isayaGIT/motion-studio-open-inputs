@@ -1,0 +1,17 @@
+{
+  "id": "deck-02",
+  "name": "卡片叠牌 02",
+  "description": "效果：图片以错位卡片叠层方式展示。 默认值：素材数量 6（可调范围 2–12）。",
+  "inputs": {
+    "required": [
+      {
+        "type": "image",
+        "count": 6,
+        "min": 2,
+        "max": 12,
+        "description": "图片素材，用于图片以错位卡片叠层方式展示。"
+      }
+    ],
+    "optional": []
+  }
+}
