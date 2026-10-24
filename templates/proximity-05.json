@@ -1,0 +1,17 @@
+{
+  "id": "proximity-05",
+  "name": "Dock 05",
+  "description": "效果：高密度小卡片网格配合八字形焦点路径，局部放大并呈现尺寸变化 默认值：素材数量 96（可调范围 6–200）。",
+  "inputs": {
+    "required": [
+      {
+        "type": "image",
+        "count": 96,
+        "min": 6,
+        "max": 200,
+        "description": "用于邻近焦点放大效果的图片素材；网格槽位可循环复用。"
+      }
+    ],
+    "optional": []
+  }
+}
