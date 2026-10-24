@@ -1,0 +1,17 @@
+{
+  "id": "parallax-06",
+  "name": "Drift Scatter 02",
+  "description": "效果：随机散布的图片以不同深度和速度向上漂移，形成有纵深的动态图片场 默认值：素材数量 60（可调范围 6–120）。",
+  "inputs": {
+    "required": [
+      {
+        "type": "image",
+        "count": 60,
+        "min": 6,
+        "max": 120,
+        "description": "用于随机散布与分层漂移的图片素材；素材可循环复用。"
+      }
+    ],
+    "optional": []
+  }
+}
