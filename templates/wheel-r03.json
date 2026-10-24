@@ -1,0 +1,17 @@
+{
+  "id": "wheel-r03",
+  "name": "Wheel 03",
+  "description": "效果：图片沿椭圆轨道排列，结合椭圆率和轴向角度形成空间环绕。 默认值：20（可调范围 3–24）。该预设允许 repeatAssets；count 表示卡片槽位数量，不代表必须上传同样数量的不同图片。",
+  "inputs": {
+    "required": [
+      {
+        "type": "image",
+        "count": 20,
+        "min": 3,
+        "max": 24,
+        "description": "图片素材，用于图片沿椭圆轨道排列，结合椭圆率和轴向角度形成空间环绕。 该预设允许 repeatAssets；count 表示卡片槽位数量，不代表必须上传同样数量的不同图片。"
+      }
+    ],
+    "optional": []
+  }
+}
