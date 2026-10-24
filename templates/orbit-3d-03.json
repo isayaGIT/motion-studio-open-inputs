@@ -1,0 +1,17 @@
+{
+  "id": "orbit-3d-03",
+  "name": "三维轨道 03",
+  "description": "效果：图片沿空间轨道排列并形成三维环绕展示。 默认值：素材数量 20（可调范围 3–40）。",
+  "inputs": {
+    "required": [
+      {
+        "type": "image",
+        "count": 20,
+        "min": 3,
+        "max": 40,
+        "description": "图片素材，用于图片沿空间轨道排列并形成三维环绕展示。"
+      }
+    ],
+    "optional": []
+  }
+}
