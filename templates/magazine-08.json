@@ -1,17 +1,9 @@
 {
   "id": "magazine-08",
   "name": "Magazine 08",
-  "description": "效果：图片以立体杂志结构排列，突出页面转动与纵深层次。 默认值：素材数量 6（可调范围 1–12）。",
+  "description": "效果：实体杂志以倾斜的三维姿态绕书脊旋转，封面与封底具有明显的俯仰、偏航和滚转角度。固定 2 个封面/封底槽位；允许 repeatAssets 循环复用素材。",
   "inputs": {
-    "required": [
-      {
-        "type": "image",
-        "count": 6,
-        "min": 1,
-        "max": 12,
-        "description": "图片素材，用于图片以立体杂志结构排列，突出页面转动与纵深层次。"
-      }
-    ],
+    "required": [{ "type": "image", "count": 2, "min": 2, "max": 2, "description": "用于杂志封面与封底的图片素材；两个固定槽位可循环复用素材。" }],
     "optional": []
   }
 }
