@@ -1,0 +1,17 @@
+{
+  "id": "magazine-09",
+  "name": "Magazine 09",
+  "description": "效果：图片以立体页片序列呈现，形成连续的杂志式动态展示。 默认值：素材数量 6（可调范围 1–12）。",
+  "inputs": {
+    "required": [
+      {
+        "type": "image",
+        "count": 6,
+        "min": 1,
+        "max": 12,
+        "description": "图片素材，用于图片以立体页片序列呈现，形成连续的杂志式动态展示。"
+      }
+    ],
+    "optional": []
+  }
+}
