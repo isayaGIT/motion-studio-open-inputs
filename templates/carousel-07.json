@@ -1,0 +1,17 @@
+{
+  "id": "carousel-07",
+  "name": "Runway 07",
+  "description": "效果：图片沿连续跑道轨迹排列，通过方向与间距形成动态图片带。 默认值：素材数量 6（可调范围 1–12）。",
+  "inputs": {
+    "required": [
+      {
+        "type": "image",
+        "count": 6,
+        "min": 1,
+        "max": 12,
+        "description": "图片素材，用于图片沿连续跑道轨迹排列，通过方向与间距形成动态图片带。"
+      }
+    ],
+    "optional": []
+  }
+}
