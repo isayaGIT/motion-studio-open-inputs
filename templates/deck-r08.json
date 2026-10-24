@@ -1,0 +1,17 @@
+{
+  "id": "deck-r08",
+  "name": "参考叠牌 08",
+  "description": "效果：图片以分层卡片构成连续的空间堆叠。 默认值：素材数量 6（可调范围 2–30）。",
+  "inputs": {
+    "required": [
+      {
+        "type": "image",
+        "count": 6,
+        "min": 2,
+        "max": 30,
+        "description": "图片素材，用于图片以分层卡片构成连续的空间堆叠。"
+      }
+    ],
+    "optional": []
+  }
+}
