@@ -1,7 +1,7 @@
 {
   "id": "surface-wall-01",
   "name": "Sphere Wall",
-  "description": "效果：图片组成弧面墙体，沿曲面形成连续的空间展示。 默认值：素材数量 40（可调范围 8–80）。",
+  "description": "效果：图片排列成横向弧面墙，沿曲面连续运动，边缘可通过淡出与背面衰减融入空间。默认卡片槽位数 40（可调范围 8–80）；允许 repeatAssets 循环复用，因此槽位数不等于独立图片数量。",
   "inputs": {
     "required": [
       {
@@ -9,7 +9,7 @@
         "count": 40,
         "min": 8,
         "max": 80,
-        "description": "图片素材，用于图片组成弧面墙体，沿曲面形成连续的空间展示。"
+        "description": "用于横向弧面墙的卡片图片。Count 控制展示槽位数量，支持 repeatAssets 循环复用素材。"
       }
     ],
     "optional": []
