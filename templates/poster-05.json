@@ -1,0 +1,17 @@
+{
+  "id": "poster-05",
+  "name": "Poster 05",
+  "description": "效果：图片以海报形式铺展，并从右侧掀起边缘形成卷曲效果。 默认值：素材数量 9（可调范围 1–12）。",
+  "inputs": {
+    "required": [
+      {
+        "type": "image",
+        "count": 9,
+        "min": 1,
+        "max": 12,
+        "description": "图片素材，用于图片以海报形式铺展，并从右侧掀起边缘形成卷曲效果。"
+      }
+    ],
+    "optional": []
+  }
+}
