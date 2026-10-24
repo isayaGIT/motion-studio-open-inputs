@@ -1,0 +1,14 @@
+{
+  "id": "wall-05",
+  "name": "Frames 05",
+  "description": "效果：整体倾斜的相框墙以流动曲线垂直滚动，图片按错列网格持续循环。槽位数量由画布尺寸和布局参数动态求解，无固定 count/min/max；允许 repeatAssets 循环复用素材。",
+  "inputs": {
+    "required": [
+      {
+        "type": "image",
+        "description": "用于倾斜滚动相框墙的竖幅图片；实际素材槽位数随画布与卡片尺寸动态变化，支持循环复用。"
+      }
+    ],
+    "optional": []
+  }
+}
