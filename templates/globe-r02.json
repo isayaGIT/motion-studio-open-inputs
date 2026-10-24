@@ -1,0 +1,17 @@
+{
+  "id": "globe-r02",
+  "name": "参考球面 02",
+  "description": "效果：图片沿球面分布并形成环绕式图片云。 默认值：素材数量 40（可调范围 4–80）。",
+  "inputs": {
+    "required": [
+      {
+        "type": "image",
+        "count": 40,
+        "min": 4,
+        "max": 80,
+        "description": "图片素材，用于图片沿球面分布并形成环绕式图片云。"
+      }
+    ],
+    "optional": []
+  }
+}
