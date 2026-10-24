@@ -1,0 +1,17 @@
+{
+  "id": "flicker-r05",
+  "name": "Pulse 07",
+  "description": "效果：全画幅交叉淡化时带有极轻微的水平漂移 默认值：素材数量 6（可调范围 2–12）。",
+  "inputs": {
+    "required": [
+      {
+        "type": "image",
+        "count": 6,
+        "min": 2,
+        "max": 12,
+        "description": "用于交叉淡化与轻微水平漂移的图片素材。"
+      }
+    ],
+    "optional": []
+  }
+}
