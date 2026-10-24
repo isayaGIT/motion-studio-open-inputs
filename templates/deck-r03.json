@@ -1,0 +1,17 @@
+{
+  "id": "deck-r03",
+  "name": "参考叠牌 03",
+  "description": "效果：图片以纵深堆叠方式形成前后景层次。 默认值：素材数量 6（可调范围 2–30）。",
+  "inputs": {
+    "required": [
+      {
+        "type": "image",
+        "count": 6,
+        "min": 2,
+        "max": 30,
+        "description": "图片素材，用于图片以纵深堆叠方式形成前后景层次。"
+      }
+    ],
+    "optional": []
+  }
+}
