@@ -1,0 +1,17 @@
+{
+  "id": "spiral-images-01",
+  "name": "图片螺旋",
+  "description": "效果：图片沿空间螺旋轨道分布，形成连续盘旋的图片序列。 默认值：素材数量 42（可调范围 6–60）。",
+  "inputs": {
+    "required": [
+      {
+        "type": "image",
+        "count": 42,
+        "min": 6,
+        "max": 60,
+        "description": "图片素材，用于图片沿空间螺旋轨道分布，形成连续盘旋的图片序列。"
+      }
+    ],
+    "optional": []
+  }
+}
