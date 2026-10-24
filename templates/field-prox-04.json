@@ -1,0 +1,17 @@
+{
+  "id": "field-prox-04",
+  "name": "Proximity 04",
+  "description": "效果：图片场沿菱形路径移动焦点，卡片密集排列并呈现尺寸与倾斜差异 默认值：素材数量 100（可调范围 50–800）。",
+  "inputs": {
+    "required": [
+      {
+        "type": "image",
+        "count": 100,
+        "min": 50,
+        "max": 800,
+        "description": "用于高密度邻近场的图片素材；九组重复场景复用同一素材池。"
+      }
+    ],
+    "optional": []
+  }
+}
