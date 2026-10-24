@@ -1,0 +1,17 @@
+{
+  "id": "tour-03",
+  "name": "Voyage 03",
+  "description": "效果：镜头穿行于更宽阔的散布式图片场，缩放幅度较低；该预设将 Count 设为 10。默认卡片槽位数 10（可调范围 4–24），允许 repeatAssets 循环复用素材。",
+  "inputs": {
+    "required": [
+      {
+        "type": "image",
+        "count": 10,
+        "min": 4,
+        "max": 24,
+        "description": "用于镜头穿行展示的散布式图片卡片；10 为槽位数，可循环复用上传素材。"
+      }
+    ],
+    "optional": []
+  }
+}
