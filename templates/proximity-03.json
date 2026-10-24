@@ -1,0 +1,17 @@
+{
+  "id": "proximity-03",
+  "name": "Dock 03",
+  "description": "效果：四列较大卡片组成网格，焦点移动时邻近图片轻柔放大 默认值：素材数量 20（可调范围 6–200）。",
+  "inputs": {
+    "required": [
+      {
+        "type": "image",
+        "count": 20,
+        "min": 6,
+        "max": 200,
+        "description": "用于邻近焦点放大效果的图片素材；网格槽位可循环复用。"
+      }
+    ],
+    "optional": []
+  }
+}
