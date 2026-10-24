@@ -1,0 +1,17 @@
+{
+  "id": "canvas-gallery-02",
+  "name": "画布画廊 02",
+  "description": "效果：图片以画廊式卡片布局呈现，形成连续的作品展示空间。 默认值：素材数量 6（可调范围 3–30）。",
+  "inputs": {
+    "required": [
+      {
+        "type": "image",
+        "count": 6,
+        "min": 3,
+        "max": 30,
+        "description": "图片素材，用于图片以画廊式卡片布局呈现，形成连续的作品展示空间。"
+      }
+    ],
+    "optional": []
+  }
+}
