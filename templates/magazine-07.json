@@ -1,17 +1,9 @@
 {
   "id": "magazine-07",
   "name": "Magazine 07",
-  "description": "效果：图片以杂志页片的三维翻动结构展示，采用不同的运动节奏。 默认值：素材数量 6（可调范围 1–12）。",
+  "description": "效果：实体杂志书封面与封底完成一周旋转，使用较柔和的自定义缓入缓出曲线和较低灯光强度。固定 2 个封面/封底槽位；允许 repeatAssets 循环复用素材。",
   "inputs": {
-    "required": [
-      {
-        "type": "image",
-        "count": 6,
-        "min": 1,
-        "max": 12,
-        "description": "图片素材，用于图片以杂志页片的三维翻动结构展示，采用不同的运动节奏。"
-      }
-    ],
+    "required": [{ "type": "image", "count": 2, "min": 2, "max": 2, "description": "用于实体杂志封面与封底的图片素材；两个槽位固定，支持循环复用同一素材。" }],
     "optional": []
   }
 }
