@@ -1,0 +1,17 @@
+{
+  "id": "carousel-r12",
+  "name": "Runway 17",
+  "description": "效果：图片沿横向轨道滚动，焦点偏向起始端并强化卡片透视。 默认值：素材数量 6（可调范围 1–12）。",
+  "inputs": {
+    "required": [
+      {
+        "type": "image",
+        "count": 6,
+        "min": 1,
+        "max": 12,
+        "description": "图片素材，用于图片沿横向轨道滚动，焦点偏向起始端并强化卡片透视。"
+      }
+    ],
+    "optional": []
+  }
+}
