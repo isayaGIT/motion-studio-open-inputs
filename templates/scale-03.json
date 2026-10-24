@@ -1,0 +1,17 @@
+{
+  "id": "scale-03",
+  "name": "Dive 03",
+  "description": "效果：图片从右下锚点向外缩小，交叉淡化时产生拉远视角 默认值：素材数量 5（可调范围 2–10）。",
+  "inputs": {
+    "required": [
+      {
+        "type": "image",
+        "count": 5,
+        "min": 2,
+        "max": 10,
+        "description": "用于 Ken Burns 式拉远缩放与交叉淡化的图片素材。"
+      }
+    ],
+    "optional": []
+  }
+}
