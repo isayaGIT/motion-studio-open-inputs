@@ -1,0 +1,17 @@
+{
+  "id": "showcase-02",
+  "name": "Showcase Deep",
+  "description": "效果：图片沿倾斜的环形空间排列，强调纵深和远近层级。 默认值：素材数量 12（可调范围 6–32）。",
+  "inputs": {
+    "required": [
+      {
+        "type": "image",
+        "count": 12,
+        "min": 6,
+        "max": 32,
+        "description": "图片素材，用于图片沿倾斜的环形空间排列，强调纵深和远近层级。"
+      }
+    ],
+    "optional": []
+  }
+}
