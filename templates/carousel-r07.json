@@ -1,0 +1,17 @@
+{
+  "id": "carousel-r07",
+  "name": "Runway 12",
+  "description": "效果：图片沿宽间距轨道滚动，形成节奏分明的图片带。 默认值：素材数量 6（可调范围 1–12）。",
+  "inputs": {
+    "required": [
+      {
+        "type": "image",
+        "count": 6,
+        "min": 1,
+        "max": 12,
+        "description": "图片素材，用于图片沿宽间距轨道滚动，形成节奏分明的图片带。"
+      }
+    ],
+    "optional": []
+  }
+}
