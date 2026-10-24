@@ -1,0 +1,17 @@
+{
+  "id": "carousel-r10",
+  "name": "Runway 15",
+  "description": "效果：图片沿横向轨道滚动，中心卡片放大并单张聚焦展示。 默认值：素材数量 6（可调范围 1–12）。",
+  "inputs": {
+    "required": [
+      {
+        "type": "image",
+        "count": 6,
+        "min": 1,
+        "max": 12,
+        "description": "图片素材，用于图片沿横向轨道滚动，中心卡片放大并单张聚焦展示。"
+      }
+    ],
+    "optional": []
+  }
+}
