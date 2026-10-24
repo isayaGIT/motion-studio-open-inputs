@@ -1,0 +1,17 @@
+{
+  "id": "flicker-02",
+  "name": "Pulse 02",
+  "description": "效果：图片通过错时显隐和脉冲式节奏交替展示。 默认值：素材数量 6（可调范围 2–12）。",
+  "inputs": {
+    "required": [
+      {
+        "type": "image",
+        "count": 6,
+        "min": 2,
+        "max": 12,
+        "description": "图片素材，用于图片通过错时显隐和脉冲式节奏交替展示。"
+      }
+    ],
+    "optional": []
+  }
+}
