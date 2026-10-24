@@ -1,0 +1,17 @@
+{
+  "id": "carousel-03",
+  "name": "Runway 03",
+  "description": "效果：图片沿跑道式轨迹排列，以单张聚焦方式切换展示。 默认值：素材数量 6（可调范围 1–12）。",
+  "inputs": {
+    "required": [
+      {
+        "type": "image",
+        "count": 6,
+        "min": 1,
+        "max": 12,
+        "description": "图片素材，用于图片沿跑道式轨迹排列，以单张聚焦方式切换展示。"
+      }
+    ],
+    "optional": []
+  }
+}
